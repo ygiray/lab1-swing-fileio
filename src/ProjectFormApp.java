@@ -1,0 +1,21 @@
+import javax.swing.*;
+import java.awt.GridLayout;
+
+public class ProjectFormApp{
+
+    public static void main(String[] args) {
+
+        JFrame frame = new JFrame("Software Project Registration Form");
+
+        frame.setSize(500, 450);
+
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+        ProjectFormPanel formPanel = new ProjectFormPanel();
+        frame.add(formPanel);
+
+        frame.setVisible(true);
+
+    }
+}
